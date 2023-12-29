@@ -176,7 +176,7 @@ dependencies {
 
     //Other
     implementation 'org.jmdns:jmdns:3.5.8'
-    implementation 'org.jsoup:jsoup:1.15.3'
+    implementation 'org.jsoup:jsoup:1.17.2'
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'com.arthenica:ffmpeg-kit-full:5.1'
