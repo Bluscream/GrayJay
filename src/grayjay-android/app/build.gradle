@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.10'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.24'
     id 'org.ajoberstar.grgit' version '5.2.1'
     id 'com.google.protobuf'
     id 'kotlin-parcelize'
@@ -180,7 +180,7 @@ dependencies {
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'com.arthenica:ffmpeg-kit-full:5.1'
-    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.7.20'
+    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.9.24'
     implementation 'com.github.dhaval2404:imagepicker:2.1'
     implementation 'com.google.zxing:core:3.5.2'
     implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
@@ -199,7 +199,7 @@ dependencies {
 
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3'
-    testImplementation "org.jetbrains.kotlin:kotlin-test:1.8.20"
+    testImplementation "org.jetbrains.kotlin:kotlin-test:1.9.24"
     testImplementation "org.xmlunit:xmlunit-core:2.9.1"
     testImplementation "org.mockito:mockito-core:5.4.0"
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
